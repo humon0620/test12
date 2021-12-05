@@ -4,3 +4,4 @@ selenium
 beautifulsoup4
 youtube_dl
 requests
+ffmpeg
