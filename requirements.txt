@@ -1,0 +1,6 @@
+discord.py
+pynacl
+selenium
+beautifulsoup4
+youtube_dl
+requests
