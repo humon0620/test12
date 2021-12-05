@@ -1,1 +1,1 @@
-worker: nolle.py
+worker: python bot.py
