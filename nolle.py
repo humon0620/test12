@@ -12,8 +12,7 @@ import random
 
 bot = commands.Bot(command_prefix='!')
 
-# 생성된 토큰을 입력해준다.
-token = "ODk3MTUzNTA0ODk0OTEwNTE0.YWRhTw.4n8hJ_-Ivhmfavxw8be3MZUZans"
+
 
 # 봇이 구동되었을 때 보여지는 코드
 @bot.event
@@ -67,4 +66,4 @@ async def 공연시작(ctx, *, url):
     URL = info['formats'][0]['url']
     vc.play(FFmpegPCMAudio(URL, **FFMPEG_OPTIONS))
         
-bot.run(token)
+bot.run("ODk3MTUzNTA0ODk0OTEwNTE0.YWRhTw.4n8hJ_-Ivhmfavxw8be3MZUZans")
