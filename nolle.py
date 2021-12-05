@@ -66,4 +66,4 @@ async def 공연시작(ctx, *, url):
     URL = info['formats'][0]['url']
     vc.play(FFmpegPCMAudio(URL, **FFMPEG_OPTIONS))
         
-bot.run("ODk3MTUzNTA0ODk0OTEwNTE0.YWRhTw.4n8hJ_-Ivhmfavxw8be3MZUZans")
+bot.run("ODk3MTUzNTA0ODk0OTEwNTE0.YWRhTw.EZIA2iVznFfmARC15EU8_8ujIVY")
