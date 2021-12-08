@@ -12,7 +12,7 @@ import random
 
 bot = commands.Bot(command_prefix='!')
 
-
+token="ODk3MTUzNTA0ODk0OTEwNTE0.YWRhTw.MDQScOGyeBiPVP4rKKLwoG2encA"
 
 # 봇이 구동되었을 때 보여지는 코드
 @bot.event
@@ -66,4 +66,4 @@ async def 공연시작(ctx, *, url):
     URL = info['formats'][0]['url']
     vc.play(FFmpegPCMAudio(URL, **FFMPEG_OPTIONS))
         
-bot.run("ODk3MTUzNTA0ODk0OTEwNTE0.YWRhTw.MDQScOGyeBiPVP4rKKLwoG2encA")
+bot.run(token)
