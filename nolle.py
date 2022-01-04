@@ -12,7 +12,7 @@ import random
 
 bot = commands.Bot(command_prefix='!')
 
-access_token = os.environ{"BOT_TOKEN"}
+access_token = os.environ{'BOT_TOKEN'}
 
 
 # 봇이 구동되었을 때 보여지는 코드
